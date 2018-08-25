@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="4"
+           time="5.140">
+  <properties />
+  
+            <testcase name="testSocialShareLinks" time="0.0" classname="com.techaspect.framework.testcases.HomePageTest">
+          <skipped />
+    </testcase>
+            <testcase name="testSocialShareLinks" time="0.0" classname="com.techaspect.framework.testcases.HomePageTest">
+          <skipped />
+    </testcase>
+            <testcase name="testSocialShareLinks" time="0.0" classname="com.techaspect.framework.testcases.HomePageTest">
+          <skipped />
+    </testcase>
+            <testcase name="testSocialShareLinks" time="0.0" classname="com.techaspect.framework.testcases.HomePageTest">
+          <skipped />
+    </testcase>
+  
+            <testcase name="testLogo" time="5.132" classname="com.techaspect.framework.testcases.HomePageTest" />
+      
+</testsuite>
