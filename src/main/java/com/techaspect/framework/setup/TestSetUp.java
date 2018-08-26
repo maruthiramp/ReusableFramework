@@ -2,7 +2,6 @@
  ******************************************************************************
  * 							  REUSABLE FRAMEWORK
  *  							CONFIDENTIAL
- *							COPYRIGHTS TO TECHASPECT
  *							
  * *****************************************************************************
  */
@@ -46,7 +45,6 @@ public class TestSetUp {
 	public static ExtentReports extent;
 	public static ThreadLocal<ExtentTest> parentTest = new ThreadLocal<>();
 	public static ThreadLocal<ExtentTest> testCaseLogger = new ThreadLocal<>();
-	//public static Logger appLogs=Logger.getLogger(TestSetUp.class.getName());
 	public static Logger appLogs=Logger.getLogger("devpinoyLogger");
 	
 	public static final ExcelReader excel = new ExcelReader(

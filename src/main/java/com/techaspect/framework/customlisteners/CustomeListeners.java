@@ -2,7 +2,6 @@
  ******************************************************************************
  * 							  REUSABLE FRAMEWORK
  *  							CONFIDENTIAL
- *							COPYRIGHTS TO TECHASPECT
  *							
  * *****************************************************************************
  */
@@ -79,9 +78,9 @@ public class CustomeListeners extends TestSetUp implements ITestListener, ISuite
 		System.setProperty("org.uncommons.reportng.escape-output","false");
 		
 		Reporter.log("Click to see Screenshot");
-		Reporter.log("<a target=\"_blank\" href="+System.getProperty("user.dir") + "\\screenshots\\" +TestUtils.screenshotName+">Screenshot</a>");	
+		Reporter.log("<a target=\"_blank\" href="+System.getProperty(Constants.ROOT_DIR) + Constants.SCREENSHOTS_FOLDER +TestUtils.screenshotName+">Screenshot</a>");	
 		Reporter.log("<br>");
-		Reporter.log("<a target=\"_blank\" href="+System.getProperty("user.dir") + "\\screenshots\\" +TestUtils.screenshotName+"><img src="+System.getProperty("user.dir") + "\\screenshots\\" +TestUtils.screenshotName+" height=200 width=200></img></a>");
+		Reporter.log("<a target=\"_blank\" href="+System.getProperty(Constants.ROOT_DIR) + Constants.SCREENSHOTS_FOLDER +TestUtils.screenshotName+"><img src="+System.getProperty(Constants.ROOT_DIR) + Constants.SCREENSHOTS_FOLDER +TestUtils.screenshotName+" height=200 width=200></img></a>");
 	}
 
 	public void onTestSkipped(ITestResult arg0) {

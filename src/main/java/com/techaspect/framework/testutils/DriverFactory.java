@@ -2,7 +2,6 @@
  ******************************************************************************
  * 							  REUSABLE FRAMEWORK
  *  							CONFIDENTIAL
- *							COPYRIGHTS TO TECHASPECT
  *							
  * *****************************************************************************
  */
@@ -24,17 +23,14 @@ import java.net.URL;
 
 import com.techaspect.framework.setup.TestSetUp;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class DriverFactory {
 	
 	private DriverFactory(){
 	}
 
-	public static String chromeExeFilePath = System.getProperty(Constants.ROOT_DIR)+"\\src\\test\\resources\\executables\\chromedriver.exe";
-	public static String ieExeFilePath = System.getProperty(Constants.ROOT_DIR)+"\\src\\test\\resources\\executables\\IEDriverServer.exe";
-	public static String firefoxExeFilePath = System.getProperty(Constants.ROOT_DIR)+"\\src\\test\\resources\\executables\\geckodriver.exe";
-
-	  
-		/**
+	/**
 	 * This method is to create a driver instance for what is configured in configuration file.
 	 * @param browserName
 	 * @throws MalformedURLException 
@@ -45,7 +41,7 @@ public class DriverFactory {
 		if(TestSetUp.configProperty.getProperty(Constants.EXECUTION_ENV).contains("Windows")){
 		if(browserName.equalsIgnoreCase("firefox"))
 		{
-			System.setProperty("webdriver.gecko.driver", firefoxExeFilePath);
+			WebDriverManager.firefoxdriver().setup();
 			driver=new FirefoxDriver();
 			DriverManager.setDriver(driver);
 			DriverManager.maximizeBrowser(driver);
@@ -53,8 +49,7 @@ public class DriverFactory {
 		}
 		else if(browserName.equalsIgnoreCase("chrome"))
 		{
-			
-			System.setProperty("webdriver.chrome.driver", chromeExeFilePath);
+			WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver();
 			DriverManager.setDriver(driver);
 			DriverManager.maximizeBrowser(driver);
@@ -62,7 +57,7 @@ public class DriverFactory {
 		}
 		else if(browserName.equalsIgnoreCase("ie"))
 		{
-			System.setProperty("webdriver.ie.driver", ieExeFilePath);
+			WebDriverManager.iedriver().setup();
 			driver=new InternetExplorerDriver();
 			DriverManager.setDriver(driver);
 			DriverManager.maximizeBrowser(driver);
@@ -114,8 +109,8 @@ public class DriverFactory {
 			switch (browserStackEnv) {
 			case Constants.CHROME:
 				caps = DesiredCapabilities.chrome();
-				caps.setCapability("browserstack.networkLogs", true);
-				caps.setCapability("browserstack.debug", true);
+				caps.setCapability(Constants.BROWSERSTACK_NETWORK_LOGS, true);
+				caps.setCapability(Constants.BROWSERSTACK_DEBUG, true);
 				caps.setCapability("os", Constants.BROWSERSTACK_OS);
 			    caps.setCapability(Constants.OS_VERSION, Constants.BROWSERSTACK_OS_VERSION);
 			    caps.setCapability(Constants.VERSION, Constants.CHROME_VERSION);
@@ -123,8 +118,8 @@ public class DriverFactory {
 				break;
 			case Constants.FIREFOX:
 				caps = DesiredCapabilities.firefox();
-				caps.setCapability("browserstack.networkLogs", true);
-				caps.setCapability("browserstack.debug", true);
+				caps.setCapability(Constants.BROWSERSTACK_NETWORK_LOGS, true);
+				caps.setCapability(Constants.BROWSERSTACK_DEBUG, true);
 				caps.setCapability("os", Constants.BROWSERSTACK_OS);
 			    caps.setCapability(Constants.OS_VERSION, Constants.BROWSERSTACK_OS_VERSION);
 			    caps.setCapability(Constants.VERSION, Constants.FIREFOX_VERSION);
@@ -133,8 +128,8 @@ public class DriverFactory {
 			case Constants.IE:
 				caps = DesiredCapabilities.edge();
 				caps.setCapability("os", Constants.BROWSERSTACK_OS);
-				caps.setCapability("browserstack.networkLogs", true);
-				caps.setCapability("browserstack.debug", true);
+				caps.setCapability(Constants.BROWSERSTACK_NETWORK_LOGS, true);
+				caps.setCapability(Constants.BROWSERSTACK_DEBUG, true);
 				caps.setCapability(Constants.OS_VERSION, Constants.BROWSERSTACK_OS_VERSION);
 			    caps.setCapability(Constants.VERSION, Constants.BROWSERSTACK_IE_VERSION);
 			    caps.setCapability(Constants.BROWSERSTACK_LOCAL, Constants.BROWSERSTACK_LOCAL_VALUE_FALSE);

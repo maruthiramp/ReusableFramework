@@ -1,4 +1,13 @@
+/**
+ ******************************************************************************
+ * 							  REUSABLE FRAMEWORK
+ *  							CONFIDENTIAL
+ *							
+ * *****************************************************************************
+ */
+
 package com.techaspect.framework.testutils;
+
 
 public class Constants {
 	
@@ -10,9 +19,8 @@ public class Constants {
 	 *  --------------------------------------------------------------------------------------------------------------------------------------- 
 	 */
 	public static final String ROOT_DIR="user.dir";
+	public static final String SCREENSHOTS_FOLDER="\\screenshots\\";
 	public static final String AUTHOR1="maruthip";
-	public static final String AUTHOR2="srinivasa.k";
-	public static final String AUTHOR3="vikram.kumar";
 	public static final String REGRESSION_CATEGORY="Regression";
 	public static final String SMOKE_CATEGORY="Smoke";
 	public static final String ACCEPTANCE_CATEGORY="Acceptance";
@@ -65,7 +73,9 @@ public class Constants {
 	public static final String BROWSERSTACK_OS = "Windows";
 	public static final String BROWSERSTACK_OS_VERSION = "10";
 	public static final String BROWSERSTACK_IE_VERSION = "17.0";
-
+	public static final String BROWSERSTACK_NETWORK_LOGS = "browserstack.networkLogs";
+	public static final String BROWSERSTACK_DEBUG = "browserstack.debug";
+	
 	public static final String SEETEST_USERNAME = "maruthip@techaspect.com";
 	public static final String SEETEST_PASS = "Testing@123";
 	public static final String SEETEST_ACCESS_KEY = "eyJ4cC51IjoxMDg2NDM3LCJ4cC5wIjoxMDg2NDM2LCJ4cC5tIjoiTVRVek16azVOemc0Tmprd09RIiwiYWxnIjoiSFMyNTYifQ.eyJleHAiOjE4NDkzNTc4ODgsImlzcyI6ImNvbS5leHBlcml0ZXN0In0.L17fidN9BxB5dk1Le5LZn6XhDlvdeQeSYww03voDW80";
@@ -101,10 +111,13 @@ public class Constants {
 	
 	/* HomePage */
 	public static final String OR_FOOTER_DIV = "footer";
+	public static final String OR_FOOTER_DIV2 = "div.logo > a > img";
 	public static final String OR_ICON_FACEBOOK = "//footer[@id='footer']/div/div/div[2]/a[1]/span";
+	public static final String OR_ICON_FACEBOOK2 = "//html/body/div[1]/div[2]/footer/div[2]/div/div/div[1]/ul/li[1]/a/i";
 	public static final String OR_ICON_TWITTER = "//footer[@id='footer']/div/div/div[2]/a[2]/span";
+	public static final String OR_ICON_TWITTER2 = "//html/body/div[1]/div[2]/footer/div[2]/div/div/div[1]/ul/li[2]/a/i";
 	public static final String OR_ICON_LINKEDIN = "//footer[@id='footer']/div/div/div[2]/a[3]/span";
-	public static final String OR_ICON_INSTAGRAM = "";
+	public static final String OR_ICON_INSTAGRAM2 = "//html/body/div[1]/div[2]/footer/div[2]/div/div/div[1]/ul/li[3]/a/i";
 	
 	public static final String OR_LOGO = "//img[@alt='image not displaying']";
 	public static final String OR_LOGO2 = "//*[@id='page-header']/div/div/div[1]/div[1]/figure/a/img";

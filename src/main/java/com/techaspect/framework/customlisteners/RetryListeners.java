@@ -2,7 +2,6 @@
  ******************************************************************************
  * 							  REUSABLE FRAMEWORK
  *  							CONFIDENTIAL
- *							COPYRIGHTS TO TECHASPECT
  *							
  * *****************************************************************************
  */
@@ -18,7 +17,7 @@ import com.techaspect.framework.setup.TestSetUp;
 public class RetryListeners implements IRetryAnalyzer {
 
 	private int count = 0;
-	private int maxCount = 2;
+	private int maxCount = 1;
 
 	@Override
 	public boolean retry(ITestResult result) {

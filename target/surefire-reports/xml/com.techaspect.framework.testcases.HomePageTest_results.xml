@@ -3,23 +3,17 @@
            tests="5"
            failures="0"
            errors="0"
-           skipped="4"
-           time="5.140">
+           skipped="1"
+           time="198.493">
   <properties />
   
             <testcase name="testSocialShareLinks" time="0.0" classname="com.techaspect.framework.testcases.HomePageTest">
           <skipped />
     </testcase>
-            <testcase name="testSocialShareLinks" time="0.0" classname="com.techaspect.framework.testcases.HomePageTest">
-          <skipped />
-    </testcase>
-            <testcase name="testSocialShareLinks" time="0.0" classname="com.techaspect.framework.testcases.HomePageTest">
-          <skipped />
-    </testcase>
-            <testcase name="testSocialShareLinks" time="0.0" classname="com.techaspect.framework.testcases.HomePageTest">
-          <skipped />
-    </testcase>
   
-            <testcase name="testLogo" time="5.132" classname="com.techaspect.framework.testcases.HomePageTest" />
+            <testcase name="testSocialShareLinks" time="35.698" classname="com.techaspect.framework.testcases.HomePageTest" />
+                <testcase name="testSocialShareLinks" time="28.738" classname="com.techaspect.framework.testcases.HomePageTest" />
+                <testcase name="testSocialShareLinks" time="63.653" classname="com.techaspect.framework.testcases.HomePageTest" />
+                <testcase name="testLogo" time="70.404" classname="com.techaspect.framework.testcases.HomePageTest" />
       
 </testsuite>

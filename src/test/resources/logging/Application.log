@@ -1,18 +1,21 @@
-24/08/2018 18:58:37 devpinoyLogger Total rows are : 14
-24/08/2018 18:58:37 devpinoyLogger Test case starts from row num: 1
-24/08/2018 18:58:37 devpinoyLogger Total rows of data are : 1
-24/08/2018 18:58:37 devpinoyLogger Total cols are : 2
-24/08/2018 18:58:37 devpinoyLogger Starting exection of test case: testLogo
-24/08/2018 18:58:46 devpinoyLogger Navigating to BaseURL
-24/08/2018 18:58:48 devpinoyLogger Total rows are : 14
-24/08/2018 18:58:48 devpinoyLogger Test case starts from row num: 5
-24/08/2018 18:58:48 devpinoyLogger Total rows of data are : 4
-24/08/2018 18:58:48 devpinoyLogger Total cols are : 3
-24/08/2018 18:58:48 devpinoyLogger Starting exection of test case: testSocialShareLinks
-24/08/2018 18:58:52 devpinoyLogger RunMode is set to NO for testdata
-24/08/2018 18:58:52 devpinoyLogger Starting exection of test case: testSocialShareLinks
-24/08/2018 18:58:56 devpinoyLogger RunMode is set to NO for testdata
-24/08/2018 18:58:57 devpinoyLogger Starting exection of test case: testSocialShareLinks
-24/08/2018 18:59:00 devpinoyLogger RunMode is set to NO for testdata
-24/08/2018 18:59:01 devpinoyLogger Starting exection of test case: testSocialShareLinks
-24/08/2018 18:59:05 devpinoyLogger RunMode is set to NO for testdata
+26/08/2018 18:08:33 devpinoyLogger Total rows are : 10
+26/08/2018 18:08:33 devpinoyLogger Test case starts from row num: 1
+26/08/2018 18:08:33 devpinoyLogger Total rows of data are : 1
+26/08/2018 18:08:33 devpinoyLogger Total cols are : 2
+26/08/2018 18:08:33 devpinoyLogger Starting exection of test case: testLogo
+26/08/2018 18:08:53 devpinoyLogger Navigating to BaseURL
+26/08/2018 18:09:52 devpinoyLogger Total rows are : 10
+26/08/2018 18:09:52 devpinoyLogger Test case starts from row num: 5
+26/08/2018 18:09:52 devpinoyLogger Total rows of data are : 4
+26/08/2018 18:09:52 devpinoyLogger Total cols are : 3
+26/08/2018 18:09:52 devpinoyLogger Starting exection of test case: testSocialShareLinks
+26/08/2018 18:10:05 devpinoyLogger Navigating to BaseURL
+26/08/2018 18:10:05 devpinoyLogger Clicked on Facebook icon
+26/08/2018 18:11:00 devpinoyLogger Starting exection of test case: testSocialShareLinks
+26/08/2018 18:11:20 devpinoyLogger Navigating to BaseURL
+26/08/2018 18:11:21 devpinoyLogger Clicked on Twitter icon
+26/08/2018 18:11:41 devpinoyLogger Starting exection of test case: testSocialShareLinks
+26/08/2018 18:12:05 devpinoyLogger Navigating to BaseURL
+26/08/2018 18:12:05 devpinoyLogger Clicked on LinkedIn icon
+26/08/2018 18:12:14 devpinoyLogger Starting exection of test case: testSocialShareLinks
+26/08/2018 18:12:18 devpinoyLogger RunMode is set to NO for testdata
