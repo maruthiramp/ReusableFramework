@@ -2,24 +2,24 @@
 <testng-results skipped="1" failed="0" ignored="0" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="226144" started-at="2018-08-26T12:38:33Z" finished-at="2018-08-26T12:42:19Z">
+  <suite name="Suite" duration-ms="112288" started-at="2018-08-28T06:38:26Z" finished-at="2018-08-28T06:40:18Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="226144" started-at="2018-08-26T12:38:33Z" finished-at="2018-08-26T12:42:19Z">
+    <test name="Test" duration-ms="112288" started-at="2018-08-28T06:38:26Z" finished-at="2018-08-28T06:40:18Z">
       <class name="com.techaspect.framework.testcases.HomePageTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeSuite" is-config="true" duration-ms="219" started-at="2018-08-26T18:08:33Z" finished-at="2018-08-26T18:08:33Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeSuite" is-config="true" duration-ms="226" started-at="2018-08-28T12:08:26Z" finished-at="2018-08-28T12:08:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-08-26T18:08:33Z" finished-at="2018-08-26T18:08:33Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-08-28T12:08:26Z" finished-at="2018-08-28T12:08:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-08-26T18:08:33Z" finished-at="2018-08-26T18:08:33Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-08-28T12:08:26Z" finished-at="2018-08-28T12:08:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeMethod" is-config="true" duration-ms="7025" started-at="2018-08-26T18:08:33Z" finished-at="2018-08-26T18:08:40Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeMethod" is-config="true" duration-ms="6856" started-at="2018-08-28T12:08:26Z" finished-at="2018-08-28T12:08:33Z">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testLogo(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="testLogo" duration-ms="70404" started-at="2018-08-26T18:08:40Z" data-provider="dpone" finished-at="2018-08-26T18:09:50Z">
+        <test-method status="PASS" signature="testLogo(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="testLogo" duration-ms="19526" started-at="2018-08-28T12:08:33Z" data-provider="dpone" finished-at="2018-08-28T12:08:52Z">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogo -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterMethod" is-config="true" duration-ms="1587" started-at="2018-08-26T18:09:50Z" finished-at="2018-08-26T18:09:52Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterMethod" is-config="true" duration-ms="1730" started-at="2018-08-28T12:08:52Z" finished-at="2018-08-28T12:08:54Z">
           <params>
             <param index="0">
               <value>
@@ -52,7 +52,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeMethod" is-config="true" duration-ms="3734" started-at="2018-08-26T18:09:52Z" finished-at="2018-08-26T18:09:56Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeMethod" is-config="true" duration-ms="4204" started-at="2018-08-28T12:08:54Z" finished-at="2018-08-28T12:08:58Z">
           <params>
             <param index="0">
               <value>
@@ -63,7 +63,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSocialShareLinks(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="testSocialShareLinks" duration-ms="63653" started-at="2018-08-26T18:09:56Z" data-provider="dpone" finished-at="2018-08-26T18:10:59Z">
+        <test-method status="PASS" signature="testSocialShareLinks(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="testSocialShareLinks" duration-ms="46881" started-at="2018-08-28T12:08:58Z" data-provider="dpone" finished-at="2018-08-28T12:09:45Z">
           <params>
             <param index="0">
               <value>
@@ -74,7 +74,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSocialShareLinks -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterMethod" is-config="true" duration-ms="1028" started-at="2018-08-26T18:10:59Z" finished-at="2018-08-26T18:11:00Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterMethod" is-config="true" duration-ms="997" started-at="2018-08-28T12:09:45Z" finished-at="2018-08-28T12:09:46Z">
           <params>
             <param index="0">
               <value>
@@ -85,7 +85,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeMethod" is-config="true" duration-ms="3911" started-at="2018-08-26T18:11:00Z" finished-at="2018-08-26T18:11:04Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeMethod" is-config="true" duration-ms="4391" started-at="2018-08-28T12:09:46Z" finished-at="2018-08-28T12:09:51Z">
           <params>
             <param index="0">
               <value>
@@ -96,7 +96,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSocialShareLinks(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="testSocialShareLinks" duration-ms="35698" started-at="2018-08-26T18:11:04Z" data-provider="dpone" finished-at="2018-08-26T18:11:40Z">
+        <test-method status="PASS" signature="testSocialShareLinks(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="testSocialShareLinks" duration-ms="6140" started-at="2018-08-28T12:09:51Z" data-provider="dpone" finished-at="2018-08-28T12:09:57Z">
           <params>
             <param index="0">
               <value>
@@ -107,7 +107,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSocialShareLinks -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterMethod" is-config="true" duration-ms="866" started-at="2018-08-26T18:11:40Z" finished-at="2018-08-26T18:11:41Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterMethod" is-config="true" duration-ms="907" started-at="2018-08-28T12:09:57Z" finished-at="2018-08-28T12:09:58Z">
           <params>
             <param index="0">
               <value>
@@ -118,7 +118,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeMethod" is-config="true" duration-ms="3924" started-at="2018-08-26T18:11:41Z" finished-at="2018-08-26T18:11:45Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeMethod" is-config="true" duration-ms="4073" started-at="2018-08-28T12:09:58Z" finished-at="2018-08-28T12:10:02Z">
           <params>
             <param index="0">
               <value>
@@ -129,7 +129,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testSocialShareLinks(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="testSocialShareLinks" duration-ms="28738" started-at="2018-08-26T18:11:45Z" data-provider="dpone" finished-at="2018-08-26T18:12:14Z">
+        <test-method status="PASS" signature="testSocialShareLinks(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="testSocialShareLinks" duration-ms="10836" started-at="2018-08-28T12:10:02Z" data-provider="dpone" finished-at="2018-08-28T12:10:12Z">
           <params>
             <param index="0">
               <value>
@@ -140,7 +140,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSocialShareLinks -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterMethod" is-config="true" duration-ms="848" started-at="2018-08-26T18:12:14Z" finished-at="2018-08-26T18:12:14Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterMethod" is-config="true" duration-ms="842" started-at="2018-08-28T12:10:12Z" finished-at="2018-08-28T12:10:13Z">
           <params>
             <param index="0">
               <value>
@@ -151,7 +151,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeMethod" is-config="true" duration-ms="3955" started-at="2018-08-26T18:12:14Z" finished-at="2018-08-26T18:12:18Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="beforeMethod" is-config="true" duration-ms="4125" started-at="2018-08-28T12:10:13Z" finished-at="2018-08-28T12:10:17Z">
           <params>
             <param index="0">
               <value>
@@ -162,18 +162,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterMethod" is-config="true" duration-ms="719" started-at="2018-08-26T18:12:18Z" finished-at="2018-08-26T18:12:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testSocialShareLinks status=SKIP method=HomePageTest.testSocialShareLinks(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="SKIP" signature="testSocialShareLinks(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="testSocialShareLinks" duration-ms="0" started-at="2018-08-26T18:12:18Z" data-provider="dpone" finished-at="2018-08-26T18:12:18Z">
+        <test-method status="SKIP" signature="testSocialShareLinks(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="testSocialShareLinks" duration-ms="4" started-at="2018-08-28T12:10:17Z" data-provider="dpone" finished-at="2018-08-28T12:10:17Z">
           <params>
             <param index="0">
               <value>
@@ -207,15 +196,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSocialShareLinks -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-08-26T18:12:19Z" finished-at="2018-08-26T18:12:19Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterMethod" is-config="true" duration-ms="729" started-at="2018-08-28T12:10:17Z" finished-at="2018-08-28T12:10:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSocialShareLinks status=SKIP method=HomePageTest.testSocialShareLinks(java.util.Hashtable)[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-08-28T12:10:18Z" finished-at="2018-08-28T12:10:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-08-26T18:12:19Z" finished-at="2018-08-26T18:12:19Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-08-28T12:10:18Z" finished-at="2018-08-28T12:10:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-08-26T18:12:19Z" finished-at="2018-08-26T18:12:19Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.techaspect.framework.testcases.HomePageTest@37883b97]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-08-28T12:10:18Z" finished-at="2018-08-28T12:10:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
